@@ -392,7 +392,7 @@ span {
 .project-gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 4rem;
+    gap: 6rem;
 }
 
 .port-box {
@@ -493,10 +493,10 @@ span {
 
 .port-content #tecnologiaProjet i {
     font-size: 30px;
-    margin-top: 10px;
-    color: var(--main3);
-    width: 30px;
-    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .main-text h2 .contentfont {
